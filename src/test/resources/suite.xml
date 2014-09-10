@@ -1,0 +1,10 @@
+<suite name="SingleSuite" verbose="2" thread-count="4">
+ 
+  <parameter name="n" value="42" />
+ 
+  <test name="Regression2">
+    <classes>
+      <class name="com.sridhar.test.firstproject.testclass1" />
+    </classes>
+  </test>
+</suite>
